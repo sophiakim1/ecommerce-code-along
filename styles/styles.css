@@ -686,3 +686,60 @@ footer .social a:hover, footer .social a:focus {
   width: 100%;
   display: block;
 }
+
+@media (max-width: 1000px) {
+  footer .footerFlexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  footer .newsletter {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .announcements {
+    display: none;
+  }
+
+  .slideOutNave .mainMenu a {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  footer .footerFlexContainer {
+    margin-bottom: 60px;
+  }
+  footer .footerNav nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  footer .footerNav ul {
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  footer .social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .socialIcons {
+    margin-bottom: 30px;
+  }
+}
